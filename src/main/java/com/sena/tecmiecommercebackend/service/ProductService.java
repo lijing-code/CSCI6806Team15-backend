@@ -53,4 +53,14 @@ public class ProductService {
             throw new ProductNotExistException("Product id is invalid." + productId);
         return optionalProduct.get();
     }
+
+    public List<ProductDto> searchProducts(String query) {
+        List<Product> products = productRepository.searchByNameOrDescription(query);
+        List<ProductDto> productDtoList = new ArrayList<>();
+        for (Product product : products) {
+            ProductDto productDto = getDtoFromProduct(product);
+            productDtoList.add(productDto);
+        }
+        return productDtoList;
+    }
 }
