@@ -46,7 +46,7 @@ public class OrderService {
         String failedURL = baseURL + "payment/failed";
 
         Stripe.apiKey = apiKey;
-
+        System.out.println("Stripe API Key: " + apiKey);//AT 20241101
         List<SessionCreateParams.LineItem> sessionItemsList = new ArrayList<>();
 
         for (CheckoutItemDto checkoutItemDto : checkoutItemDtoList) {
@@ -59,6 +59,7 @@ public class OrderService {
                 .setCancelUrl(failedURL)
                 .addAllLineItem(sessionItemsList)
                 .setSuccessUrl(successURL)
+                .setLocale(SessionCreateParams.Locale.EN)
                 .build();
         return Session.create(params);
     }
