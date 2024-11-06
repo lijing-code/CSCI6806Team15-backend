@@ -91,7 +91,7 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
     </dependencies>
-      <!-- update for mailservice -->
+      <!-- update for mailservice  // weitingpeng 11.5-->
      <build>
         <plugins>
             <plugin>
