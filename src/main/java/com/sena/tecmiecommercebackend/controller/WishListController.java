@@ -1,9 +1,24 @@
 package com.sena.tecmiecommercebackend.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
 import com.sena.tecmiecommercebackend.common.ApiResponse;
 import com.sena.tecmiecommercebackend.dto.product.ProductDto;
 import com.sena.tecmiecommercebackend.exceptions.AuthenticationFailException;
-import com.sena.tecmiecommercebackend.exceptions.CartItemNotExistException;
+// import com.sena.tecmiecommercebackend.exceptions.CartItemNotExistException;
 import com.sena.tecmiecommercebackend.exceptions.WishtNotExistException;
 import com.sena.tecmiecommercebackend.repository.entity.Product;
 import com.sena.tecmiecommercebackend.repository.entity.User;
@@ -11,13 +26,6 @@ import com.sena.tecmiecommercebackend.repository.entity.Wish;
 import com.sena.tecmiecommercebackend.service.AuthenticationService;
 import com.sena.tecmiecommercebackend.service.ProductService;
 import com.sena.tecmiecommercebackend.service.WishListService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @RestController
 @RequestMapping("/wishlist")
