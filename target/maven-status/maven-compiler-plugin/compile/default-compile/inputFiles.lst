@@ -1,10 +1,20 @@
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/config/AuthenticationMessage.java
+<<<<<<< HEAD
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/TecmiEcommerceBackendApplication.java
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/exceptions/UpdateFailException.java
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/config/WebConfig.java
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/controller/OrderController.java
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/service/OrderService.java
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/service/AuthenticationService.java
+=======
+/Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/security/JwtTokenFilter.java
+/Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/TecmiEcommerceBackendApplication.java
+/Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/exceptions/UpdateFailException.java
+/Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/controller/OrderController.java
+/Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/service/OrderService.java
+/Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/service/AuthenticationService.java
+/Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/security/JwtTokenProvider.java
+>>>>>>> c9a7f7a (add Google Account Auto login)
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/dto/user/RegisterDto.java
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/service/CartService.java
 /Users/jingli/Desktop/pre/back/CSCI6806Team15-backend/src/main/java/com/sena/tecmiecommercebackend/repository/entity/Cart.java
