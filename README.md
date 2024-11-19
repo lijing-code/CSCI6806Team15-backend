@@ -1,9 +1,9 @@
-<p align=end><strong><a href="https://github.com/SwishSwishBish/tecmi-ecommerce-frontend"> < Check out the frontend > </a></strong></p>
+<p align=end><strong><a href="https://github.com/lijing-code/CSCI6806Team15-frontend"> < Check out the frontend > </a></strong></p>
 
-# <p align=center>Tecmi E-Commerce</p>
+# <p align=center>Refining and Implementing of Cloud Automobile Trading Center Application</p>
 <p align="center"><img 
     style="width: 70%;"
-    src="https://github.com/SwishSwishBish/tecmi-ecommerce-backend/raw/master/images/tecmi-1.png" 
+    src="./images/main-page.png" 
     alt="Our logo">
 </img></p>
 <p align="center">
@@ -17,7 +17,30 @@
 
 
 <p align=center>
-This project is a web-based e-commerce application developed with Java, Spring Boot and Vue.js. It is not a real e-commerce site, it is a fully functional e-commerce site clone for educational purposes. You can use this e-commerce project for learning purposes. </p> 
+Abstract—Buying and selling vehicles are still outdated, relying
+on in-person negotiations that are time-consuming and often
+lead to disagreements. Our work is based on the original
+paper, ”Design and Implementation of Cloud Automobile Trading
+Center,” which suggested using a cloud-based system to improve
+the efficiency of vehicle trading. The goal of our project was
+to address the shortcomings of the original work, especially the
+lack of detailed implementation and source code. To do this,
+we used popular frameworks like Vue.js and Spring Boot to
+create an online platform where buyers and sellers can safely
+conduct business. By addressing the common issues in vehicle
+sales, our improvements made the platform more user-friendly,
+transparent, and efficient for both consumers and dealerships. </p> 
+<p align=center>
+We have two goals for our project: first is to implement
+the research by developing an online working vehicle trading
+platform based on the principles laid out in the paper; sec-
+ondly, to upgrade the above-mentioned platform with modern 
+frameworks such as Vue.js, and Spring Boot. We want to
+smoothen the process of trading a vehicle to let users search
+and buy their favorite vehicles much more efficiently than with
+traditional sales processes, with more useful functions: AI Hat
+Box; Online Test Drive Reservation; Maintenance Booking
+.etc.</p> 
 <p align=center>If you're using this app, please ⭐ this repository!</p> 
 
 
@@ -37,9 +60,6 @@ This project is a web-based e-commerce application developed with Java, Spring B
     </ul>
     <ul>
         <li>Spring Data</li>
-    </ul>
-    <ul>
-        <li>Hibernate</li>
     </ul>
     <ul>
         <li>Swagger</li>
@@ -78,6 +98,9 @@ This project is a web-based e-commerce application developed with Java, Spring B
 
 - Register
 - Login / Logout
+- Google Auto Signin / Signup
+- QR Code for quick enter
+- Chatbox
 - Add / Edit Category
 - Add / Edit Product
 - Catalogue
@@ -90,11 +113,8 @@ This project is a web-based e-commerce application developed with Java, Spring B
 
 ## Demo
 
-<p align="center"><img width=700 src="https://github.com/SwishSwishBish/tecmi-ecommerce-backend/raw/master/images/tecmi-gif.gif" alt="demo"/></p>
-<p align="center"><img width=700 src="https://github.com/SwishSwishBish/tecmi-ecommerce-backend/raw/master/images/tecmi-2.png" alt="demo"/></p>
-<p align="center"><img width=700 src="https://github.com/SwishSwishBish/tecmi-ecommerce-backend/raw/master/images/tecmi-3.png" alt="demo"/></p>
-<p align="center"><img width=700 src="https://github.com/SwishSwishBish/tecmi-ecommerce-backend/raw/master/images/tecmi-4.png" alt="demo"/></p>
-<p align="center"><img width=700 src="https://github.com/SwishSwishBish/tecmi-ecommerce-backend/raw/master/images/tecmi-5.png" alt="demo"/></p>
+<p align="center"><img width=700 src="./images/Category and Products.png" alt="demo"/></p>
+<p align="center"><img width=700 src="./images/Chatbox sample.png" alt="demo"/></p>
 
 ## Swagger Demo
 
@@ -107,8 +127,3 @@ This project is a web-based e-commerce application developed with Java, Spring B
     src="https://github.com/SwishSwishBish/tecmi-ecommerce-backend/blob/master/images/diagram.png?raw=true" 
     alt="Diagram">
 </img>
-
-## Connect with me:
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sena-atak%C3%B6%C5%9Fker-3a79b0235/)
-[![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/SenaAtakosker)
-[![portfolio](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:senaatakosker@gmail.com)
